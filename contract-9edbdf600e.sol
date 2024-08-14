@@ -5,9 +5,9 @@ pragma solidity ^0.8.20;
 import "@openzeppelin/contracts@5.0.2/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts@5.0.2/access/Ownable.sol";
 
-contract LogNFTics is ERC721, Ownable {
+contract LogNFTX is ERC721, Ownable {
     constructor(address initialOwner)
-        ERC721(" LogNFTics", "LGNFT")
+        ERC721(" LogNFTX", "LNFTX")
         Ownable(initialOwner)
     {}
 
