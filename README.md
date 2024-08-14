@@ -84,9 +84,14 @@ changeManager: Changes the owner of the contract..
 function changeManager(address newManager) public onlyOwner {
     transferOwnership(newManager);
 }
+
 Usage
 LogNFTics.createShipment("Ankara", "Istanbul", "Sender", "Receiver", 100, "10x10x10", "Additional information");
 LogNFTics.updateShipmentStatus(1, "In Transit");
 LogNFTics.updateShipmentDetails(1, "New Sender", "New Receiver", 120, "15x15x15", "New additional information");
 LogNFTics.getShipment(1);
 LogNFTics.changeManager("0xNewOwnerAddress");
+
+![image](https://github.com/user-attachments/assets/83913350-d581-4ac4-b010-415a98f13762)
+
+![image](https://github.com/user-attachments/assets/d1898132-cc2f-4a8d-bf4c-c6bca367e27d)
